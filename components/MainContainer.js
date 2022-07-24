@@ -11,6 +11,8 @@ const MainContainer = ({ children, keywords }) => {
       <div className="navbar">
         <A href={"/"} text="Главная" />
         <A href={"/users"} text="Пользователи" />
+        <A href={"/counter"} text="Counter" />
+        <A href={"/todo"} text="Todo" />
       </div>
       <div>{children}</div>
       <style jsx>{`
