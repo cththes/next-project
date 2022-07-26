@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import A from "./A";
+
 const MainContainer = ({ children, keywords }) => {
   return (
     <>
