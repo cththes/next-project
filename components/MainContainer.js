@@ -6,7 +6,7 @@ const MainContainer = ({ children, keywords }) => {
     <>
       <Head>
         <meta keywords={"some meta tags" + keywords}></meta>
-        <title>Главная страница</title>
+        <title id="title">Главная страница</title>
       </Head>
       <div className="navbar">
         <A href={"/"} text="Главная" />

@@ -7,7 +7,7 @@ const Counter = observer(() => {
   return (
     <MainContainer keywords={"counter"}>
       <div className="counter">
-        {counter.total}
+        <div id="text">{counter.total}</div>
         <div className="btns">
           <button className="btn" onClick={() => counter.increment()}>
             +
